@@ -117,19 +117,6 @@
   window.drawVisualization = function(p) {
     $('#holder').show();
     $('#loading').hide();
-    $('#logo').html($('<img>', {
-      width: '200px',
-      src: 'https://tonicforhealth.com/wp-content/uploads/2020/09/Tonic-An-R1-Company-Color-Large.png'
-    }));
-    $('#fname').html(p.fname);
-    $('#lname').html(p.lname);
-    $('#gender').html(p.gender);
-    $('#birthdate').html(p.birthdate);
-    $('#height').html(p.height);
-    $('#systolicbp').html(p.systolicbp);
-    $('#diastolicbp').html(p.diastolicbp);
-    $('#ldl').html(p.ldl);
-    $('#hdl').html(p.hdl);
   };
 
 })(window);
