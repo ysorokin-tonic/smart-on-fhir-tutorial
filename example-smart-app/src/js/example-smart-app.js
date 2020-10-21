@@ -114,11 +114,7 @@
     }
   }
 
-  window.drawVisualization = function(p, a, b, c) {
-    alert(JSON.stringify(p, null, 2));
-    alert(a);
-    alert(b);
-    alert(c);
+  window.drawVisualization = function(p) {
     $('#holder').show();
     $('#loading').hide();
   };
