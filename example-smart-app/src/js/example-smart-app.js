@@ -9,6 +9,8 @@
 
     function onReady(smart)  {
       if (smart.hasOwnProperty('patient')) {
+        $('#holder').html(smart.userId);
+        alert(smart.userId);
         var patient = smart.patient;
         var pt = patient.read();
         var obv = smart.patient.api.fetchAll({
